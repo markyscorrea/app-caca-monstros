@@ -1,0 +1,129 @@
+html, body {
+	margin: 0px;
+	padding: 0px;
+}
+
+/* MOUSE E ELEMENTO HTML */
+
+.cliqueMouse1 {
+	cursor: url(../img/lanterna/lanterna_apagada.png) 30 30, auto;
+}
+
+.cliqueMouse2 {
+	cursor: url(../img/lanterna/lanterna_acesa.png) 30 30, auto;
+}
+
+
+.opacidadeMouse {
+	animation-name: opacidade-lanterna;
+	animation-duration: 1s;
+}
+
+.opacidadeMonstro {
+	height: 20%;
+	width: 15%;
+	animation-name: opacidade-itens;
+	animation-duration: 1.5s;
+}
+
+body {
+	background: black;
+	background-size: 100%;	
+}
+
+.tamanho {
+	height: 20%;
+	width: 15%;
+	animation-name: opacidade-itens;
+	animation-duration: 3s;
+}
+
+.tamanhoCampo {
+	width: 780px;
+	height: 500px;
+	border: 1px solid red;
+}
+
+/*ANIMAÇÃO OPACIDADE*/
+
+@keyframes opacidade-itens {
+	from {
+		opacity: 1;
+	}
+	to {
+		opacity: 0;
+	}
+}
+
+@keyframes opacidade-lanterna {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+/* LAYOUT */
+
+.painel_superior {
+	position: absolute;
+	top: 5px;
+	/*border: 1px solid red;*/
+	color: white;
+	background-color: rgba(228, 223, 223, 0.3);
+	border-radius: 10px;
+	border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.painel_inferior {
+	position: absolute;
+	bottom: 5px;
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	border-radius: 10px;
+	padding: 10px;
+	font-weight: bold;
+	color: white;
+	background-color: rgba(228, 223, 223, 0.3);
+}
+
+.painel_select {
+	margin-top: 200px;
+	margin-bottom: 50px;
+}
+
+#caixa_instrucao {
+	background-color: rgba(228, 223, 223, 0.6);
+	border-radius: 10px;
+	border: 1px solid rgba(0, 0, 0, 0.5);
+	margin-top: 100px;
+	color: black;
+	padding: 5px;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+.painel_derrota {
+
+}
+
+/* PAGINA INICIAL */
+#vitoria {
+	background-image: url(../img/predio/vitoria.png);
+	
+}
+
+#intrucoes {
+	background-image: url(../img/capa.png);
+	
+}
+
+#derrota {
+	background-image: url(../img/predio/derrota.png);
+	
+}
+
+#capa {
+	background-image: url(../img/capa.png);
+	
+}
