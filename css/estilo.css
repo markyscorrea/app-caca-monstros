@@ -127,3 +127,29 @@ body {
 	background-image: url(../img/capa.png);
 	
 }
+
+/* MEDIA QUERIES */
+
+@media (max-width: 575.98px) {
+	.tamanho {
+	height: 10%;
+	width: 20%;
+	animation-name: opacidade-itens;
+	animation-duration: 3s;
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+@media (min-width: 1200px) {
+	
+}
