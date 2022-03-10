@@ -136,6 +136,7 @@ body {
 	width: 20%;
 	animation-name: opacidade-itens;
 	animation-duration: 3s;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
